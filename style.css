@@ -1,0 +1,19 @@
+		.header {
+			background-color: #35488a;
+			height: 10px;
+			margin-bottom: 20px;
+		}
+
+		.col,
+		[class*="col-"] {
+			margin-bottom: 20px;
+		}
+
+		.nav-pills {
+			justify-content: center;
+			margin-bottom: 25px;
+		}
+
+		.nav-pills li {
+			margin: 0 15px;
+		}
