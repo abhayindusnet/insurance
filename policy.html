@@ -8,7 +8,7 @@
 	<meta name="description" content="Tangent" />
 	<meta name="keywords" content="" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-	<title>Claim</title>
+	<title>Policy</title>
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
 		integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	<link rel="stylesheet" href="style.css" />
@@ -35,24 +35,24 @@
 			<div class="row">
 
 				<div class="col-12">
-					<input type="text" class="form-control" id="inputPassword" placeholder="Your Name*">
+					<input type="text" class="form-control" id="name" name="name" placeholder="Your Name*">
 				</div>
 				<div class="col-6">
-					<input type="text" class="form-control" id="inputPassword" placeholder="Mobile Number*">
+					<input type="text" class="form-control" id="mobile" name="mobile" placeholder="Mobile Number*">
 				</div>
 				<div class="col-6">
-					<input type="text" class="form-control" id="inputPassword" placeholder="Email*">
-				</div>
-
-				<div class="col-6">
-					<input type="text" class="form-control" id="inputPassword" placeholder="Date of Birth*">
-				</div>
-				<div class="col-6">
-					<input type="text" class="form-control" id="inputPassword" placeholder="Policy Term*">
+					<input type="text" class="form-control" id="email" name="email" placeholder="Email*">
 				</div>
 
 				<div class="col-6">
-					<select class="form-control">
+					<input type="text" class="form-control" id="dob" name="dob" placeholder="Date of Birth*">
+				</div>
+				<div class="col-6">
+					<input type="text" class="form-control" id="policy_term" name="policy_term" placeholder="Policy Term*">
+				</div>
+
+				<div class="col-6">
+					<select class="form-control" name="total_adult">
 						<option>No of Adults*</option>
 						<option value="1">1</option>
 						<option value="2">2</option>
@@ -60,7 +60,7 @@
 					</select>
 				</div>
 				<div class="col-6">
-					<select class="form-control">
+					<select class="form-control" name="total_child">
 						<option>No of Children*</option>
 						<option value="1">1</option>
 						<option value="2">2</option>
@@ -69,7 +69,7 @@
 				</div>
 
 				<div class="col-6">
-					<select class="form-control">
+					<select class="form-control" name="health_cover">
 						<option>Health Insurance Cover</option>
 						<option value="1">1</option>
 						<option value="2">2</option>
@@ -78,7 +78,7 @@
 				</div>
 
 				<div class="col-6">
-					<select class="form-control">
+					<select class="form-control" name="payment_option">
 						<option>Choose your payment option</option>
 						<option>EMI</option>
 						<option>Full Payment</option>
