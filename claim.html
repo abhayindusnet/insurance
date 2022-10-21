@@ -31,8 +31,17 @@
 		<form name="claim" id="claim_form">
 			<div class="row">
 				<div class="col-4">
-					<select class="form-control">
+					<select class="form-control" name="policy_type">
 						<option>Select Policy Type*</option>
+						<option value="Health">Health</option>
+						<option value="Group">Group</option>
+					</select>
+				</div>
+				<div class="col-4">
+					<select class="form-control" name="type">
+						<option>Type*</option>
+						<option value="Hospitalization">Hospitalization</option>
+						<option value="Patient">Patient</option>
 					</select>
 				</div>
 				<div class="col-4">
